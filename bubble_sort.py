@@ -1,4 +1,3 @@
-
 def bubbleSort(elementsList):
     n = len(elementsList)
     for j in range(0,n-1):
@@ -16,4 +15,5 @@ def bubbleSort(elementsList):
 elementsList = [1,4,5,2,7,0,13,9]
 bubbleSort(elementsList)
 print('The sorted list is:', elementsList)
+
 
